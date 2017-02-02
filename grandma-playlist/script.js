@@ -12,7 +12,7 @@ var speechRecognitionList = new SpeechGrammarList();
 speechRecognitionList.addFromString(grammar, 1);
 recognition.grammars = speechRecognitionList;
 //recognition.continuous = false;
-recognition.lang = 'vi-VI';
+recognition.lang = 'vi-VN';
 recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
